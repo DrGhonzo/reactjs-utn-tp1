@@ -1,22 +1,30 @@
 import React from 'react';
-import CounterCard from './CardWithCounter';
+import CounterCard from './CounterCard';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const App = () => {
   return (
-    <>
-      <Container>
-        <Row className="justify-content-md-center">
-          <Col className="md">
-          <h1>Boca de Urnas</h1>
-          <CounterCard cardTitle={'Candidato 1'}/>
-          <CounterCard cardTitle={'Candidato 2'}/>
+    <div style={{ backgroundColor: '#343a40', minHeight: '100vh', color: 'white' }}>
+      <Container className="mt-5">
+        <Row className="justify-content-center">
+          <Col md="6">
+            <h1 className="text-center">Boca de Urnas</h1>
           </Col>
         </Row>
-      </Container>    
-    </>
+        <Row className="justify-content-center">
+          <Col md="6">
+            <CounterCard cardTitle={'Candidato 1'} darkMode />
+          </Col>
+        </Row>
+        <Row className="justify-content-center">
+          <Col md="6">
+            <CounterCard cardTitle={'Candidato 2'} darkMode />
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 };
 
