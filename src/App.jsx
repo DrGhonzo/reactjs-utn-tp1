@@ -1,5 +1,5 @@
 import React from 'react';
-import CounterCard from './CounterCard';
+import CounterCard from './assets/components/CounterCard/CounterCard';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';

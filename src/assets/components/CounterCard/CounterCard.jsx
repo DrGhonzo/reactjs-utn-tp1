@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
-import CounterButtons from './CounterButtons';
+import CounterButtons from '../CounterButtons/CounterButtons';
 
 const CounterCard = ({cardTitle, darkMode}) => {
   const [count, setCount] = useState(0);
