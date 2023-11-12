@@ -10,6 +10,7 @@ const App = () => {
       <Container>
         <Row className="justify-content-md-center">
           <Col className="md">
+          <h1>Boca de Urnas</h1>
           <CounterCard cardTitle={'Candidato 1'}/>
           <CounterCard cardTitle={'Candidato 2'}/>
           </Col>
