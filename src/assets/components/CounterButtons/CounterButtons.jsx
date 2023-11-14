@@ -14,14 +14,14 @@ const CounterButtons = ({ count, setCount }) => {
   };
 
   return (
-    <div>
-      <Button variant="success" onClick={handleIncrement} style={buttonStyle}>
+    <>
+      <Button variant="success" onClick={handleIncrement}>
         +
       </Button>{' '}
-      <Button variant="danger" onClick={handleDecrement} style={buttonStyle}>
+      <Button variant="danger" onClick={handleDecrement}>
         -
       </Button>
-    </div>
+    </>
   );
 };
 

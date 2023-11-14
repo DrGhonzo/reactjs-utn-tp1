@@ -3,6 +3,7 @@ import CounterCard from './assets/components/CounterCard/CounterCard';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import './index.css'
 
 const App = () => {
   return (
@@ -10,12 +11,12 @@ const App = () => {
       <Container className="mt-5">
         <Row className="justify-content-center">
           <Col md="6">
-            <h1 className="text-center">Boca de Urnas</h1>
+            <h1 className="text-center">Boca de urnas</h1>
           </Col>
         </Row>
         <Row className="justify-content-center">
           <Col md="6">
-            <CounterCard cardTitle={'Candidato 1'} darkMode />
+            <CounterCard className="h1 candidato" cardTitle={'Candidato 1'} darkMode />
           </Col>
         </Row>
         <Row className="justify-content-center">
